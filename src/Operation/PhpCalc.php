@@ -31,16 +31,16 @@ class PhpCalc
     private function calcResult($operation){
         switch ($operation){
             case '+' :
-                echo $this->a . "+" . $this->b . " = " . $this->plus() . PHP_EOL;
+                echo $this->a . " + " . $this->b . " = " . $this->plus() . PHP_EOL;
                 break;
             case '-' :
-                echo $this->a . "-" . $this->b . " = " . $this->minus() . PHP_EOL;
+                echo $this->a . " - " . $this->b . " = " . $this->minus() . PHP_EOL;
                 break;
             case '/' :
-                echo $this->a . "/" . $this->b . " = " . $this->divide() . PHP_EOL;
+                echo $this->a . " / " . $this->b . " = " . $this->divide() . PHP_EOL;
                 break;
             case '*' :
-                echo $this->a . "*" . $this->b . " = " . $this->multiply() . PHP_EOL;
+                echo $this->a . " * " . $this->b . " = " . $this->multiply() . PHP_EOL;
                 break;
             default:
                 break;
